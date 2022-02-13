@@ -113,7 +113,7 @@ int main(int argc, char** argv)
 
     display.show();
 
-    // Adjustable Sliders
+    // // Adjustable Sliders
     // QWidget sliderHolder;
     // QVBoxLayout sliderLayout(&sliderHolder);
 
@@ -129,6 +129,7 @@ int main(int argc, char** argv)
     // sliderLayout.addWidget(&maximumSlider);
 
     // QObject::connect(&minimumSlider, &QSlider::sliderReleased, [&](){ scaleMinimum = minimumSlider.value(); draw(scaleMinimum, scaleMaximum, windowWidth, windowHeight, img); display.setPixmap(QPixmap::fromImage(img)); });
+    // QObject::connect(&maximumSlider, &QSlider::sliderReleased, [&](){ scaleMaximum = maximumSlider.value(); draw(scaleMinimum, scaleMaximum, windowWidth, windowHeight, img); display.setPixmap(QPixmap::fromImage(img)); });
     
     // sliderHolder.show();
 
