@@ -1,2 +1,4 @@
 # Mandelbrot-Set
-Creation of the Mandelbrot Set using C++ and Qt5
+The Mandelbrot Set created using C++ (GUI built with Qt5)
+
+![](images/mbset.png)
